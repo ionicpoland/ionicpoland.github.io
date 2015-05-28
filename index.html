@@ -1,14 +1,16 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="pl">
+
+<head>
     <meta charset="utf-8">
     <!-- Presentation created using reveal.js: https://github.com/hakimel/reveal.js -->
     <!-- Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se -->
 
-      <title>Społeczność ionic w Polsce</title>
+    <title>Społeczność ionic w Polsce</title>
 
-      <meta name="description" content="Społeczność ionic w Polsce. Twórz niesamowite aplikacje mobilne z wykorzystaniem ionicframework">
+    <meta name="description" content="Społeczność ionic w Polsce. Twórz niesamowite aplikacje mobilne z wykorzystaniem ionicframework">
     <meta name="author" content="https://twitter.com/ol3j">
+    <meta name="keywords" content="aplikacje mobilne, mobile development, aplikacje hybrydowe, ionic framework, angular, fullstack">
     <link rel="shortcut icon" href="favicon.ico">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -24,74 +26,99 @@
 
     <!-- If the query includes 'print-pdf', use the PDF print sheet -->
     <script>
-      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+        document.write('<link rel="stylesheet" href="css/print/' + (window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper') + '.css" type="text/css" media="print">');
     </script>
-  </head>
+</head>
 
-  <body>
+<body>
 
     <div class="reveal">
-      <div class="slides">
-       
-        <section>
-         <section>
-          <img src="img/ionic-poland-icon.png" class="logo">
-          <h1>ionicpoland</h1>
-          <h4>Społeczność ionic framework w Polsce</h4>
-          </section>
-          <section>
-              <h3>Poznaj <i><a href="http://ionicframework.com/" target="_blank">ionic framework</a></i></h3>
-              <h3>Sprawdź możliwości hybrydowych aplikacji mobilnych</h3>
-              <h3>Twórz niesamowite aplikacje na urządzenia mobilne</h3>
-          </section>
-        </section>
+        <div class="slides">
 
-        <section>
-         <h3>Przyłącz się do nas!</h3>
-          <div class="row" style="margin-top:60px;">
-              <div class="col span_2"> 
-              <img src="img/facebook.png" class="logo" width="200" height="200" style="margin-right: 10px;">
-                  <a href="https://www.facebook.com/groups/ionicpoland/">Dołącz do groupy<br/> i dziel się wiedzą</a>
-              </div>
-              <div class="col span_2">
-                  <img src="img/twitter.png" class="logo" width="200" height="200" style="margin-left: 10px; margin-right: 10px">
-                  <a href="https://twitter.com/ionicpoland">@ionicpoland <br/>bądź na bieżąco</a>
-              </div>
-              <div class="col span_2">
-              <img src="img/meetup.png" class="logo" width="200" height="200" style="margin-left: 10px; margin-right: 10px">
-                  <a href="http://www.meetup.com/ionicpoland/">Spotkajmy się<br/>i porozmawiajmy!</a></div>
-          </div>
-        </section>
-        
-      </div>
+            <section>
+                <section>
+                    <img src="img/ionic-poland-icon.png" class="logo">
+                    <h1>ionicpoland</h1>
+                    <h4>Społeczność ionic framework w Polsce</h4>
+                </section>
+                <section>
+                    <h3>Poznaj <i><a href="http://ionicframework.com/" target="_blank">ionic framework</a></i></h3>
+                    <h3>Sprawdź możliwości aplikacji hybrydowych</h3>
+                    <h3>i stwórz niesamowite rozwiązania na urządzenia mobilne</h3>
+                </section>
+            </section>
+
+            <section>
+                <h3>Przyłącz się do nas!</h3>
+                <div class="row" style="margin-top:60px;">
+                    <div class="col span_2">
+                        <a href="https://www.facebook.com/groups/ionicpoland/">
+                            <img src="img/facebook.png" class="logo" width="200" height="200" style="margin-right: 10px;"> Dołącz do groupy
+                            <br/> i dziel się wiedzą</a>
+                    </div>
+                    <div class="col span_2">
+                        <a href="https://twitter.com/ionicpoland">
+                        <img src="img/twitter.png" class="logo" width="200" height="200" style="margin-left: 10px; margin-right: 10px">
+                        @ionicpoland <br/>bądź na bieżąco</a>
+                    </div>
+                    <div class="col span_2">
+                        <a href="http://www.meetup.com/ionicpoland/">
+                        <img src="img/meetup.png" class="logo" width="200" height="200" style="margin-left: 10px; margin-right: 10px">
+                        Spotkajmy się<br/>i porozmawiajmy!</a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
     </div>
 
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.min.js"></script>
 
     <script>
-      // Full list of configuration options available here:
-      // https://github.com/hakimel/reveal.js#configuration
-      Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
 
-        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-        transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
 
-        // Optional libraries used to extend on reveal.js
-        dependencies: [
-          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+                {
+                    src: 'lib/js/classList.js',
+                    condition: function () {
+                        return !document.body.classList;
+                    }
+                },
+                {
+                    src: 'plugin/highlight/highlight.js',
+                    async: true,
+                    callback: function () {
+                        hljs.initHighlightingOnLoad();
+                    }
+                }
         ]
-      });
+        });
 
-      if(location.protocol == 'file:') {
-        alert('This presentation must be hosted be a web server for the demos to work, such as python -m SimpleHTTPServer')
-      }
+        if (location.protocol == 'file:') {
+            alert('This presentation must be hosted be a web server for the demos to work, such as python -m SimpleHTTPServer')
+        }
     </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  </body>
+        ga('create', 'UA-63538813-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+
 </html>
