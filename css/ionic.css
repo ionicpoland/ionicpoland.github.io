@@ -263,3 +263,12 @@ body {
   width: 287px;
   height: 509px
 }
+
+#content {
+    position: relative;
+}
+#content a {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
